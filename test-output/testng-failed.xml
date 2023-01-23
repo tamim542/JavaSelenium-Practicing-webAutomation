@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="seleniumAuto.Hover">
+        <methods>
+          <include name="hoverWebsite"/>
+          <include name="start"/>
+          <include name="hoverExample"/>
+        </methods>
+      </class> <!-- seleniumAuto.Hover -->
+      <class name="seleniumAuto.FirstWebAutomation">
+        <methods>
+          <include name="start"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- seleniumAuto.FirstWebAutomation -->
+      <class name="seleniumAuto.DropDown">
+        <methods>
+          <include name="start"/>
+          <include name="dropdownExample"/>
+          <include name="dropDown"/>
+        </methods>
+      </class> <!-- seleniumAuto.DropDown -->
+      <class name="seleniumAuto.KeyBoard">
+        <methods>
+          <include name="start"/>
+          <include name="keyboardExample"/>
+          <include name="keyBoardWebsite"/>
+        </methods>
+      </class> <!-- seleniumAuto.KeyBoard -->
+      <class name="seleniumAuto.Nevigate">
+        <methods>
+          <include name="nevigaetHeyper"/>
+          <include name="start"/>
+          <include name="checkNevigate"/>
+        </methods>
+      </class> <!-- seleniumAuto.Nevigate -->
+      <class name="seleniumAuto.IframeHandle">
+        <methods>
+          <include name="start"/>
+          <include name="iframeExample"/>
+        </methods>
+      </class> <!-- seleniumAuto.IframeHandle -->
+      <class name="seleniumAuto.AlertJs">
+        <methods>
+          <include name="start"/>
+          <include name="altertJs"/>
+          <include name="alertWebsite"/>
+        </methods>
+      </class> <!-- seleniumAuto.AlertJs -->
+      <class name="seleniumAuto.SeleniumWaiting">
+        <methods>
+          <include name="start"/>
+          <include name="seleniumWaiting"/>
+        </methods>
+      </class> <!-- seleniumAuto.SeleniumWaiting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
